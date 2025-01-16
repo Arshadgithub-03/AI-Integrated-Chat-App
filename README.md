@@ -6,9 +6,13 @@ In addition to basic chat features, This Chat App integrates Gemini AI to assist
 Key features:
 
 1.User Authentication: Secure login and registration.
+
 2.Project Collaboration: Users can create projects, add collaborators, and manage private chats within each project.
+
 3.AI Assistance: Use the @ai command in the chat to interact with AI for coding help.
+
 4.Real-Time Chat: Seamless group conversations with project-specific privacy.
+
 5.Code Execution: Run server code directly in the browser using a web container.
 
 The app uses Socket.io for real-time communication and Redis for efficient data handling. This solution aims to improve productivity, streamline project workflows, and provide an all-in-one platform for coding collaboration with AI-powered assistance.
