@@ -86,6 +86,7 @@ cd ../client
 npm install
 ```
 🔹 Run the Project
+
 4️⃣ Start the backend server
 ```sh
 cd ../server
