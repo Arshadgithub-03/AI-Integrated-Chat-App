@@ -1,7 +1,79 @@
-# AI-Integrated-Chat-App
-AI-Integrated Project Collaboration Chat App is a web application built with the MERN stack (MongoDB, Express.js, React.js, and Node.js) designed to enhance team collaboration in software development. The app provides real-time communication within secure, project-specific chat rooms, ensuring that only invited members can participate in discussions.
+# AI-Integrated Project Collaboration Chat App  
 
-In addition to basic chat features, This Chat App integrates Gemini AI to assist with coding tasks. Users can interact with the AI by typing @ai followed by their query to get coding solutions, explanations, or even AI-generated Express.js server code snippets. The platform also includes a built-in code editor, allowing users to modify and run server code directly in the browser via a web container, eliminating the need for local setups and speeding up testing and deployment.
-![Alt Text](images/register_page.png)
-![Alt Text](images/login_page.png)
+This repository contains the source code for an **AI-powered project collaboration chat application**. The app allows users to create projects, invite collaborators, and communicate in private chat rooms. Additionally, users can interact with an AI assistant for code generation and request AI-powered server code execution directly in the browser.  
+
+---
+
+## Description  
+
+The AI-Integrated Project Collaboration Chat App is a **real-time** platform designed for teams to work together seamlessly. Users can:  
+✅ **Register and log in** securely.  
+✅ **Create projects** and invite collaborators.  
+✅ **Communicate privately** in project-specific chat rooms.  
+✅ **Interact with AI** using `@ai` commands for assistance.  
+✅ **Request AI-generated server code** and run it within the browser.  
+
+This application enhances teamwork and efficiency by integrating **AI-powered assistance** into collaborative software development.  
+
+---
+
+## Features  
+
+### 🏠 Authentication  
+- Users can **register** and **log in** securely.  
+- 2FA (Two-Factor Authentication) for enhanced security.  
+
+![Register Page](images/register_page.png)  
+![Login Page](images/login_page.png)  
+
+### 📂 Project Management  
+- Create new projects and provide a project name.  
+- Invite **collaborators** to join the project.  
+
+![Creating a Project](images/project_name.png)  
+![Adding Collaborators](images/adding_collab.png)  
+
+### 💬 Real-Time Chat & AI Interaction  
+- Private chat rooms for project members.  
+- Interact with AI using `@ai` for:  
+  - **General queries**  
+  - **Code assistance**  
+  - **Debugging suggestions**  
+  - **Code review**  
+
+![Project Chat Room](images/sample.png)  
+ 
+### 🖥 AI-Powered Server Code Execution  
+- Users can request AI-generated **server code**.  
+- The application provides an **embedded code editor** to modify code.  
+- Run the **generated server code directly in the browser**.  
+
+![Running Code in Browser](images/sample2.png)  
+
+---
+
+## Technologies Used  
+
+| Technology    | Purpose |
+|--------------|---------|
+| **React.js** | Frontend UI & chat interface |
+| **Node.js (Express)** | Backend API |
+| **MongoDB** | Database for user/projects |
+| **Socket.io** | Real-time chat functionality |
+| **Redis** | Efficient session & message handling |
+| **LangChain** | AI-powered assistance |
+| **Gemini AI** | AI for code generation and queries |
+| **Web Container** | Running AI-powered server containers |
+
+---
+
+## Getting Started  
+
+### 🔹 Setup Locally  
+
+1️⃣ **Clone the repository**  
+```sh
+git clone [repository URL]
+cd ai-project-chat
+
 
