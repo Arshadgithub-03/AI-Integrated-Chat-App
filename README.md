@@ -16,3 +16,6 @@ Key features:
 5.Code Execution: Run server code directly in the browser using a web container.
 
 The app uses Socket.io for real-time communication and Redis for efficient data handling. This solution aims to improve productivity, streamline project workflows, and provide an all-in-one platform for coding collaboration with AI-powered assistance.
+
+![Alt Text](images/Register page.png)
+
