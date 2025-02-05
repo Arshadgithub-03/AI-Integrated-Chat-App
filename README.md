@@ -61,7 +61,6 @@ This application enhances teamwork and efficiency by integrating **AI-powered as
 | **MongoDB** | Database for user/projects |
 | **Socket.io** | Real-time chat functionality |
 | **Redis** | Efficient session & message handling |
-| **LangChain** | AI-powered assistance |
 | **Gemini AI** | AI for code generation and queries |
 | **Web Container** | Running AI-powered server containers |
 
@@ -80,6 +79,23 @@ cd project-name
 ```sh
 cd server
 npm install
+```
+3️⃣ Install frontend dependencies
+```sh
+cd ../client
+npm install
+```
+🔹 Run the Project
+4️⃣ Start the backend server
+```sh
+cd ../server
+npm start
+```
+5️⃣ Start the frontend application
+```sh
+cd ../client
+npm start
+
 
 
 
