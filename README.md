@@ -74,6 +74,12 @@ This application enhances teamwork and efficiency by integrating **AI-powered as
 1️⃣ **Clone the repository**  
 ```sh
 git clone [repository URL]
-cd ai-project-chat
+cd project-name
+```
+2️⃣ **Install backend dependencies** 
+```sh
+cd server
+npm install
+
 
 
